@@ -1,0 +1,19 @@
+{
+  "name": "albert/numeros-en-letras",
+  "description": "Convierte cualquier número en letras con el valor correspondiente.",
+  "license" : "MIT",
+  "authors" : [
+    {
+      "name": "Albert",
+      "email": "mig4121@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2|^8.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "NumerosEnLetras": "src/"
+    }
+  }
+}
