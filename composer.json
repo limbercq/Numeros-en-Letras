@@ -9,7 +9,14 @@
     "facturación",
     "sunat"
   ],
-
+  "homepage": "https://github.com/limbercq/Numeros-en-Letras",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Albert",
+      "homepage": "https://github.com/limbercq/Numeros-en-Letras"
+    }
+  ],
   "require": {
     "php": "^7.2|^8.0",
     "innovareti/password-policy": "*"
