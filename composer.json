@@ -1,19 +1,24 @@
 {
   "name": "albert/numeros-en-letras",
+  "type": "library",
   "description": "Convierte cualquier número en letras con el valor correspondiente.",
-  "license" : "MIT",
-  "authors" : [
-    {
-      "name": "Albert",
-      "email": "mig4121@gmail.com"
-    }
+  "keywords": [
+    "convertir",
+    "numero",
+    "letras",
+    "facturación",
+    "sunat"
   ],
+
   "require": {
     "php": "^7.2|^8.0"
   },
   "autoload": {
-    "psr-0": {
+    "psr-4": {
       "NumerosEnLetras": "src/"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5|^9.0"
   }
 }

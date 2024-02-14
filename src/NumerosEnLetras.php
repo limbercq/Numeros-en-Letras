@@ -3,7 +3,9 @@
 /***
  * @DevelopedBy Villca
  ***/
+namespace NumerosEnLetras;
 
+use ParseError;
 class NumerosEnLetras
 {
     private static $UNIDADES = [
